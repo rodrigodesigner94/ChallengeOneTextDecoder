@@ -11,22 +11,23 @@
     <div>
         <section id="typingArea">
             <img id="logoAlura" src="/src/assets/logoalura.png" alt="logo alura" />
-            <form action="" >
-                <input type="text" name="text" id="textToDecode" placeholder="Digite seu texto" required>
+            
+                <textarea id="textToDecode" placeholder="Digite seu texto" required></textarea>
+
                 <div id="buttonsArea"> 
-                    <button type="submit" id="decode">Cpritografar</button>
-                    <button type="submit" id="undecode">Descriptografar</button>
-                </form>
+                    <button id="decode" onclick="crypt()">Cpritografar</button>
+                    <button id="undecode" onclick="decrypt()">Descriptografar</button>
+                
             </div>
 
         </section>
 
         <section id="translatingArea">
-            <div id="searcherImg">
+            <div id="searcherscream">
                 <img id="searcher" src="/src/assets/High quality products 1 1.svg" />
             </div>       
         </section>
     </div>
-    
+    <script src="/src//js/index.js"></script>
 </body>
 </html>

@@ -6,7 +6,8 @@ font-family: 'Inter', sans-serif;
 }
 div{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
     margin: 2rem;  
 }
@@ -26,7 +27,7 @@ form{
     color: #0A3871;
     padding-bottom: 20rem;
     width: 35rem;
-    border: hidden;
+    
     font-size: 2rem;
     text-align: center;
     
@@ -69,4 +70,25 @@ form{
 #searcher{
     width: 15rem;
     
+}
+.newText{
+    width: 23rem;
+    height: 27rem;
+    font-size: 2rem;
+    background-color: #ffff;
+    text-align: center;
+}
+
+.btnCopy{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    border-radius: 18px;
+    background-color:#ffff;
+    border-color: #0A3871;
+    color: #0A3871;
+    height: 3rem;
+    width: 12rem;
+    font-size: 1rem;
+    align-content: center;
 }
