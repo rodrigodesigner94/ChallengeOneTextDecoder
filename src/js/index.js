@@ -22,7 +22,7 @@ function decrypt () {
 }
 
 function copy() {
-    var textoCop = document.getElementById('textToDecode');
+    var textoCop = document.querySelector('.newText');
   
     textoCop.select();
     document.execCommand('copy');
